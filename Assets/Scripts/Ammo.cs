@@ -35,6 +35,7 @@ public class Ammo : MonoBehaviour
             if (slot.ammoType == ammoType)
             {
                 return slot;
+                print(slot.ammotype);
             }
         }
         return null;
